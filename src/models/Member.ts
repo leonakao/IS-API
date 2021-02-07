@@ -27,4 +27,4 @@ const MemberSchema = new Schema(
   },
 )
 
-export default mongoose.model<MemberDocument>('Message', MemberSchema)
+export default mongoose.model<MemberDocument>('Member', MemberSchema)
